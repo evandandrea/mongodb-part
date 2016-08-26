@@ -1,0 +1,10 @@
+name: mongodb
+summary: MongoDB part
+version: "3.2.7"
+description: A part for MongoDB.
+parts:
+    mongodb:
+        source: https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.2.7.tgz
+        plugin: dump
+        stage-packages:
+            - libssl1.0.0
